@@ -2,47 +2,80 @@
 
 ## Objective
 
-The execution layer is designed to maintain operational stability under live market conditions.
+The execution flow is designed to maintain operational stability under live market conditions while reducing unstable execution behaviour.
 
 ---
 
-## Core Flow
+## Core Operational Structure
 
-Signal Detection
-↓
-Execution Validation
-↓
+Market Data
+    ↓
+Reference Level Update
+    ↓
+Indicator Validation
+    ↓
+Spread Validation
+    ↓
+Cooldown Validation
+    ↓
 Risk Permission Layer
-↓
-Broker Execution
-↓
+    ↓
+Execution Trigger
+    ↓
 Position Monitoring
-↓
-Exposure Control
+    ↓
+Trailing Management
 
 ---
 
-## Execution Validation
+## Reference Level Update
 
-The validation layer filters unstable conditions before execution.
+The infrastructure continuously updates internal market reference zones used for execution validation.
 
-Focus areas:
-- spread behaviour
-- volatility spikes
-- execution quality
-- exposure conditions
+The objective is to maintain structured directional context before allowing execution activity.
 
 ---
 
-## Risk Permission Layer
+## Indicator Validation
 
-Risk checks are applied before execution approval.
+The validation layer evaluates trend strength and directional alignment before execution approval.
 
-Examples:
-- exposure limits
-- drawdown state
-- market instability
-- recovery isolation
+Validation factors include:
+- directional confirmation
+- trend strength
+- market alignment
+- operational stability
+
+---
+
+## Spread Validation
+
+Execution quality checks are applied before order placement.
+
+The infrastructure avoids unstable execution environments caused by:
+- spread expansion
+- low liquidity
+- unstable market conditions
+
+---
+
+## Cooldown Validation
+
+Cooldown logic helps reduce excessive execution density during unstable market phases.
+
+The objective is controlled operational pacing instead of aggressive execution frequency.
+
+---
+
+## Position Monitoring
+
+Active exposure is continuously monitored after execution.
+
+The infrastructure manages:
+- exposure state
+- execution behaviour
+- trailing protection
+- operational stability
 
 ---
 
@@ -50,6 +83,6 @@ Examples:
 
 The infrastructure prioritizes:
 - execution consistency
-- stability
 - controlled exposure
+- operational stability
 - live market adaptability
