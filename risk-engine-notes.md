@@ -1,75 +1,67 @@
-
 # Risk Engine Notes
 
 ## Objective
 
-The risk engine is designed to maintain operational stability during unstable live market conditions.
+The risk engine is designed to maintain operational consistency during unstable live market conditions.
 
-The primary focus is not aggressive growth, but controlled exposure management and execution consistency.
+The primary focus is controlled exposure behaviour rather than aggressive execution activity.
 
 ---
 
 ## Core Principles
 
 - exposure stability
-- controlled recovery behaviour
-- drawdown containment
-- execution-aware risk handling
-- adaptive operational response
+- controlled execution pacing
+- operational risk containment
+- execution-aware protection
+- adaptive exposure handling
 
 ---
 
 ## Drawdown Containment
 
-The infrastructure reduces uncontrolled exposure escalation during unstable volatility conditions.
+The infrastructure applies execution restrictions during unstable operational environments.
 
-The system prioritizes:
-- exposure monitoring
-- execution quality awareness
-- controlled trade pacing
-- recovery isolation logic
-
-The objective is to prevent operational instability during adverse market phases.
+The objective is to reduce uncontrolled exposure escalation during:
+- volatility spikes
+- spread instability
+- directional uncertainty
 
 ---
 
 ## Recovery Isolation
 
-Recovery behaviour is isolated to avoid cross-interference between independent execution flows.
+Execution flows are isolated to reduce cross-interference between active exposure conditions.
 
-This architecture helps reduce:
-- cascading exposure
-- correlated recovery pressure
-- multi-position instability
-
-The infrastructure is designed to maintain execution separation under high-volatility conditions.
+This helps reduce:
+- cascading recovery pressure
+- correlated instability
+- excessive execution clustering
 
 ---
 
 ## Exposure Balancing
 
-The system continuously evaluates active exposure conditions before allowing additional execution activity.
+The infrastructure evaluates active market conditions before allowing additional execution activity.
 
-Focus areas:
+Operational checks include:
+- active exposure state
 - execution density
-- directional imbalance
-- market instability
-- volatility expansion
-
-The objective is to avoid unnecessary concentration during unstable market transitions.
+- spread conditions
+- directional environment
 
 ---
 
 ## Risk Permission Logic
 
-Execution approval is dependent on multiple operational conditions.
+Execution approval depends on multiple operational conditions.
 
 Examples:
-- spread behaviour
-- volatility conditions
+- spread validation
+- trend strength confirmation
+- cooldown enforcement
 - execution stability
-- active exposure state
-- operational drawdown environment
+- exposure state
 
 The infrastructure prioritizes execution quality over execution frequency.
 
