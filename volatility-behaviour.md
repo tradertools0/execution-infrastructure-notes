@@ -4,83 +4,80 @@
 
 Operational observations related to live market execution behaviour during volatility transitions.
 
-The focus is on execution stability, spread behaviour and market environment adaptation.
+The focus is execution stability, spread behaviour and operational adaptability.
 
 ---
 
 ## Spread Expansion Events
 
-Spread expansion frequently increases during:
+Spread instability frequently increases during:
 - session transitions
-- high-impact news conditions
+- high-impact volatility
 - liquidity reduction periods
 
-Execution quality may degrade significantly during these environments.
-
-Operational impact examples:
-- delayed fills
-- unstable execution
+Operational impact may include:
+- delayed execution
+- unstable fills
 - increased slippage
-- recovery distortion
+- execution asymmetry
+
+The infrastructure applies spread validation before execution approval.
 
 ---
 
-## Liquidity Sweeps
+## Breakout Instability
 
-Short-duration directional spikes often create unstable execution conditions.
+Rapid directional movement may create unstable continuation behaviour.
 
-These events may produce:
-- false continuation behaviour
-- rapid directional reversals
-- execution asymmetry
+Observed conditions include:
+- false continuation
+- short-duration spikes
+- directional reversals
+- unstable momentum transitions
 
-Infrastructure stability becomes more important than execution frequency during these phases.
+Operational filters help reduce unstable execution during these environments.
 
 ---
 
 ## Unstable Fill Behaviour
 
-Execution consistency may deteriorate during:
-- high volatility
-- rapid tick acceleration
-- spread instability
+Execution quality may deteriorate during rapid market acceleration.
 
 Observed behaviour:
 - inconsistent fills
 - delayed execution response
-- partial execution instability
+- spread distortion
+- unstable order behaviour
 
-Execution validation layers help reduce unstable operational behaviour.
+The infrastructure prioritizes execution stability during these phases.
 
 ---
 
 ## Session Transition Behaviour
 
-Market structure often changes during:
+Market structure frequently changes during:
 - London open
 - New York transition
-- low-liquidity rollover periods
+- rollover environments
 
-Observed changes:
+Observed effects:
 - volatility expansion
-- spread instability
 - directional acceleration
-- temporary execution imbalance
-
-Operational infrastructure must adapt dynamically during these transitions.
+- liquidity imbalance
+- execution instability
 
 ---
 
 ## Volatility Asymmetry
 
-Volatility conditions are not always symmetrical between bullish and bearish market phases.
+Bullish and bearish volatility phases may behave differently under live execution conditions.
 
-Observed behaviour may include:
-- uneven momentum structure
-- directional execution distortion
-- asymmetric recovery behaviour
+Observed behaviour includes:
+- uneven directional momentum
+- asymmetric execution response
+- unstable continuation behaviour
 
-Execution systems must account for changing market response conditions.
+Operational systems must adapt dynamically during these environments.
 
 ---
 
@@ -88,8 +85,6 @@ Execution systems must account for changing market response conditions.
 
 The infrastructure prioritizes:
 - execution consistency
-- adaptive stability
 - controlled exposure
 - operational resilience
-
-The objective is long-term execution stability under changing live market conditions.
+- adaptive execution stability
