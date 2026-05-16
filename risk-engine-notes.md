@@ -2,9 +2,9 @@
 
 ## Objective
 
-The risk engine is designed to maintain operational consistency during unstable live market conditions.
+The risk engine is designed to maintain controlled operational behaviour during unstable live market conditions.
 
-The primary focus is controlled exposure behaviour rather than aggressive execution activity.
+The primary focus is exposure stability, execution selectivity, and operational consistency rather than aggressive execution activity.
 
 ---
 
@@ -15,17 +15,25 @@ The primary focus is controlled exposure behaviour rather than aggressive execut
 - operational risk containment
 - execution-aware protection
 - adaptive exposure handling
+- execution quality prioritization
 
 ---
 
 ## Drawdown Containment
 
-The infrastructure applies execution restrictions during unstable operational environments.
+The infrastructure applies protective execution constraints during unstable operational environments.
 
 The objective is to reduce uncontrolled exposure escalation during:
 - volatility spikes
 - spread instability
 - directional uncertainty
+- degraded execution conditions
+
+Protective behaviour may include:
+- execution throttling
+- reduced exposure participation
+- temporary execution restrictions
+- recovery pacing adjustments
 
 ---
 
@@ -33,37 +41,60 @@ The objective is to reduce uncontrolled exposure escalation during:
 
 Execution flows are isolated to reduce cross-interference between active exposure conditions.
 
-This helps reduce:
+The objective is to prevent:
 - cascading recovery pressure
 - correlated instability
 - excessive execution clustering
+- uncontrolled exposure propagation
+
+Recovery isolation helps maintain operational stability during high-stress market environments.
 
 ---
 
 ## Exposure Balancing
 
-The infrastructure evaluates active market conditions before allowing additional execution activity.
+Additional execution requests are evaluated against current exposure and live market conditions before approval.
 
-Operational checks include:
+Operational evaluation factors may include:
 - active exposure state
 - execution density
-- spread conditions
-- directional environment
+- spread integrity
+- directional alignment
+- volatility conditions
+- recovery pressure
+
+The infrastructure prioritizes controlled exposure distribution over aggressive position expansion.
 
 ---
 
 ## Risk Permission Logic
 
-Execution approval depends on multiple operational conditions.
+Execution requests are evaluated through multiple operational validation layers before broker-side approval.
 
-Examples:
+Validation conditions may include:
 - spread validation
-- trend strength confirmation
+- directional confirmation
 - cooldown enforcement
 - execution stability
-- exposure state
+- exposure thresholds
+- volatility environment checks
 
-The infrastructure prioritizes execution quality over execution frequency.
+The objective is execution selectivity rather than execution intensity.
+
+---
+
+## Operational Degradation Handling
+
+The infrastructure continuously monitors for degraded operational conditions that may impact execution stability.
+
+Protective handling behaviour may include:
+- execution throttling
+- exposure reduction
+- recovery isolation
+- execution suspension
+- protection layer escalation
+
+The objective is controlled operational survivability during unstable market conditions.
 
 ---
 
@@ -72,3 +103,10 @@ The infrastructure prioritizes execution quality over execution frequency.
 The objective of the risk layer is not prediction.
 
 The objective is controlled operational behaviour under live market uncertainty.
+
+The infrastructure prioritizes:
+- survivability
+- stability
+- execution consistency
+- controlled exposure behaviour
+- long-term operational resilience
