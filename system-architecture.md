@@ -2,93 +2,166 @@
 
 ## Core Infrastructure Structure
 
-Market Data
-    ↓
+Market Data Feed
+        ↓
 Reference Structure Layer
-    ↓
-Signal Validation Layer
-    ↓
+        ↓
+Signal Qualification Layer
+        ↓
 Execution Validation Layer
-    ↓
-Risk Permission Engine
-    ↓
-Broker Execution Layer
-    ↓
-Position Monitoring
-    ↓
-Exposure Management
-    ↓
-Trailing Protection Layer
+        ↓
+Risk Authorization Engine
+        ↓
+Broker Execution Gateway
+        ↓
+Position State Monitoring
+        ↓
+Exposure & Drawdown Control
+        ↓
+Dynamic Protection Layer
+
+---
+
+## Architecture Objective
+
+The infrastructure is designed to maintain execution consistency and controlled operational behaviour under changing live market conditions.
+
+The primary focus is:
+- execution stability
+- exposure control
+- operational resilience
+- adaptive execution handling
+- controlled system behaviour
 
 ---
 
 ## Reference Structure Layer
 
-The infrastructure maintains internal market reference zones used for directional validation and operational structure awareness.
+The infrastructure continuously maintains internal market reference structures used for directional context and execution awareness.
+
+Reference structures assist with:
+- directional validation
+- structural alignment
+- operational context awareness
+- execution filtering
+
+The objective is structured market interpretation before execution participation.
 
 ---
 
-## Signal Validation Layer
+## Signal Qualification Layer
 
-Signal validation evaluates directional alignment and trend strength before execution approval.
+Signal qualification evaluates directional alignment and operational consistency before execution approval.
 
-Validation factors include:
+Validation factors may include:
 - trend alignment
 - directional structure
-- operational confirmation
 - momentum consistency
+- market confirmation
+- operational stability conditions
+
+The objective is selective execution participation rather than continuous execution activity.
 
 ---
 
 ## Execution Validation Layer
 
-Execution quality checks are applied before order placement.
+Execution quality checks are applied before broker-side order transmission.
 
-Operational checks include:
-- spread conditions
+Operational validation may include:
+- spread integrity
 - execution stability
 - volatility behaviour
-- market transition state
+- market transition conditions
+- liquidity environment checks
+
+The infrastructure attempts to reduce participation during degraded execution environments.
 
 ---
 
-## Risk Permission Engine
+## Risk Authorization Engine
 
-The risk engine evaluates exposure conditions before allowing execution activity.
+Execution requests are evaluated against internal operational constraints before approval.
 
-Focus areas:
+Focus areas include:
 - exposure stability
 - cooldown enforcement
 - operational pacing
-- controlled execution density
+- execution density control
+- drawdown containment
+- recovery isolation
+
+The objective is controlled execution behaviour during unstable market conditions.
 
 ---
 
-## Broker Execution Layer
+## Broker Execution Gateway
 
-The execution layer manages order placement under live market conditions.
+The execution gateway manages order transmission and execution handling under live broker conditions.
 
 The infrastructure prioritizes:
 - execution consistency
-- operational stability
+- operational reliability
 - controlled execution behaviour
+- execution-state awareness
+
+The gateway layer is designed to reduce unstable execution behaviour during volatile market conditions.
 
 ---
 
-## Position Monitoring
+## Position State Monitoring
 
-Active positions are continuously monitored after execution.
+Active exposure conditions are continuously monitored after execution activity.
 
-Operational management includes:
-- trailing behaviour
-- exposure control
-- execution monitoring
-- operational stability
+Operational monitoring may include:
+- trailing protection behaviour
+- exposure tracking
+- execution-state monitoring
+- operational degradation detection
+- recovery-state observation
+
+The objective is continuous operational awareness after execution deployment.
+
+---
+
+## Exposure & Drawdown Control
+
+The infrastructure continuously evaluates active exposure conditions during live execution phases.
+
+Operational controls may include:
+- exposure balancing
+- execution throttling
+- drawdown containment
+- recovery pacing
+- execution restriction handling
+
+The objective is controlled survivability during unstable operational environments.
+
+---
+
+## Dynamic Protection Layer
+
+Protective infrastructure behaviour adapts according to changing market and execution conditions.
+
+Protection behaviour may include:
+- adaptive trailing protection
+- execution restriction escalation
+- exposure reduction handling
+- operational protection adjustments
+
+The objective is long-term operational stability under uncertain market conditions.
 
 ---
 
 ## Infrastructure Philosophy
 
-The infrastructure is designed for operational consistency under changing live market conditions.
+The infrastructure is not designed around prediction-centric execution behaviour.
 
-The objective is execution stability, controlled exposure and adaptive operational behaviour.
+The architecture is designed around:
+- operational resilience
+- execution consistency
+- controlled exposure behaviour
+- adaptive protection handling
+- long-term system survivability
+
+The objective is stable infrastructure behaviour under live market uncertainty.
