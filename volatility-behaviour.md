@@ -2,9 +2,14 @@
 
 ## Objective
 
-Operational observations related to live market execution behaviour during volatility transitions.
+Operational observations related to live market execution behaviour during volatility transitions and unstable liquidity conditions.
 
-The focus is execution stability, spread behaviour and operational adaptability.
+The primary focus is:
+- execution stability
+- spread integrity
+- volatility adaptation
+- operational resilience
+- controlled execution behaviour
 
 ---
 
@@ -12,72 +17,111 @@ The focus is execution stability, spread behaviour and operational adaptability.
 
 Spread instability frequently increases during:
 - session transitions
-- high-impact volatility
-- liquidity reduction periods
+- high-impact volatility phases
+- liquidity reduction environments
+- rollover conditions
 
 Operational impact may include:
-- delayed execution
+- delayed execution response
 - unstable fills
-- increased slippage
-- execution asymmetry
+- asymmetric slippage
+- execution degradation
+- spread distortion
 
-The infrastructure applies spread validation before execution approval.
+The infrastructure applies spread validation and execution filtering before broker-side execution approval.
+
+The objective is reduced participation during unstable execution environments.
 
 ---
 
 ## Breakout Instability
 
-Rapid directional movement may create unstable continuation behaviour.
+Rapid directional expansion may create unstable continuation behaviour during volatile market phases.
 
-Observed conditions include:
-- false continuation
-- short-duration spikes
-- directional reversals
+Observed conditions may include:
+- false continuation movement
+- short-duration directional spikes
+- abrupt directional reversals
 - unstable momentum transitions
+- liquidity-driven expansion behaviour
 
-Operational filters help reduce unstable execution during these environments.
+The infrastructure applies execution qualification filters to reduce unstable participation during these environments.
+
+The objective is selective execution participation rather than reactive breakout execution.
 
 ---
 
 ## Unstable Fill Behaviour
 
-Execution quality may deteriorate during rapid market acceleration.
+Execution quality may deteriorate during rapid market acceleration and unstable liquidity conditions.
 
-Observed behaviour:
+Observed behaviour may include:
 - inconsistent fills
-- delayed execution response
-- spread distortion
-- unstable order behaviour
+- delayed execution confirmation
+- spread asymmetry
+- unstable order-state behaviour
+- execution response degradation
 
-The infrastructure prioritizes execution stability during these phases.
+The infrastructure prioritizes execution consistency and operational stability during accelerated volatility conditions.
+
+Protective behaviour may include:
+- execution throttling
+- spread restriction enforcement
+- temporary execution suppression
+- exposure pacing adjustments
 
 ---
 
 ## Session Transition Behaviour
 
-Market structure frequently changes during:
-- London open
-- New York transition
-- rollover environments
+Market structure and execution conditions frequently shift during major session transitions.
 
-Observed effects:
+Observed environments include:
+- London open transition
+- New York session transition
+- rollover liquidity phases
+- session overlap volatility
+
+Observed operational effects may include:
 - volatility expansion
 - directional acceleration
 - liquidity imbalance
-- execution instability
+- spread instability
+- execution inconsistency
+
+The infrastructure continuously evaluates execution stability during these transition environments before allowing additional exposure participation.
 
 ---
 
 ## Volatility Asymmetry
 
-Bullish and bearish volatility phases may behave differently under live execution conditions.
+Bullish and bearish volatility environments may behave differently under live execution conditions.
 
-Observed behaviour includes:
+Observed behaviour may include:
 - uneven directional momentum
 - asymmetric execution response
-- unstable continuation behaviour
+- unstable continuation structure
+- directional imbalance behaviour
+- inconsistent volatility persistence
 
-Operational systems must adapt dynamically during these environments.
+Operational systems must dynamically adapt to changing directional volatility characteristics during live execution phases.
+
+The objective is operational adaptability rather than fixed volatility assumptions.
+
+---
+
+## Liquidity Degradation Behaviour
+
+Execution stability may deteriorate during periods of reduced market participation and fragmented liquidity conditions.
+
+Observed operational behaviour may include:
+- widening spreads
+- unstable execution routing
+- delayed order response
+- irregular momentum behaviour
+- inconsistent fill quality
+
+The infrastructure continuously monitors liquidity-related execution conditions before approving additional execution requests.
 
 ---
 
@@ -85,6 +129,10 @@ Operational systems must adapt dynamically during these environments.
 
 The infrastructure prioritizes:
 - execution consistency
-- controlled exposure
+- controlled exposure behaviour
 - operational resilience
 - adaptive execution stability
+- volatility-aware protection
+- long-term execution survivability
+
+The objective is stable operational behaviour during uncertain live market conditions.
