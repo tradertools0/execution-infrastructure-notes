@@ -1,22 +1,17 @@
-# Architecture Diagrams
-
-## Core Execution Structure
-
-```text
-Market Data
-    ↓
-Reference Structure Layer
-    ↓
-Signal Validation Layer
-    ↓
+Market Data Feed
+        ↓
+Reference Structure Engine
+        ↓
+Signal Qualification Layer
+        ↓
 Execution Validation Layer
-    ↓
-Risk Permission Engine
-    ↓
-Broker Execution Layer
-    ↓
-Position Monitoring
-    ↓
-Exposure Management
-    ↓
-Trailing Protection Layer
+        ↓
+Risk Authorization Engine
+        ↓
+Broker Execution Gateway
+        ↓
+Position State Monitor
+        ↓
+Exposure & Drawdown Control
+        ↓
+Dynamic Protection Layer
